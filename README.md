@@ -79,7 +79,7 @@ The following cookbooks are dependencies:
 
 * database
 * keystone
-* mysql
+* mysql / postgresql
 * openssl
 * openstack-common
 
@@ -98,7 +98,6 @@ api
 
 registry
 --------
--Includes recipe `mysql:client`
 -Installs the glance-registry server
 
 Attributes

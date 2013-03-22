@@ -14,5 +14,6 @@ end
 
 depends           "database"
 depends           "keystone"
-depends           "mysql"
 depends           "openstack-common", ">= 0.1.7"
+suggests          "mysql"
+suggests          "postgresql" 
